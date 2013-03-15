@@ -43,6 +43,9 @@
     text-shadow: 0 -1px 0 rgba(0,0,0,.5);
     font-weight: bold;
     cursor: pointer;
+    &:hover {
+      @include background-image(linear-gradient(bottom, #0051b9 0%, #4ea0e5 100%));
+    }
   }
 }
 
