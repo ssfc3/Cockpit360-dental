@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 900px) {
+  .left, .right {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  .page-header {
+    padding: 50px 0;
+  }
+  .prelaunch h1, .prelaunch h2 {
+    margin-bottom: 50px;
+  }
+}
