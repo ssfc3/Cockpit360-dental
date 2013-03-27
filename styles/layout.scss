@@ -1,0 +1,19 @@
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  @extend .cf;
+}
+
+.left, .right {
+  width: 45.454545455%;
+  float: left;
+}
+
+.left {
+  margin-right: 4.545454545%;
+}
+
+.right {
+  margin-left: 4.545454545%;
+}
